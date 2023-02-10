@@ -1,0 +1,355 @@
+[32mINFO[39m [2023-10-02, 7:30:23 PM] (7236 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:32:12 PM] (9824 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:32:15 PM] (9824 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:32:20 PM] (9824 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:32:25 PM] (9824 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:32:27 PM] (9688 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:32:30 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:32:35 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:32:40 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:32:45 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:32:50 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:32:55 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:33:00 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:33:05 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:33:10 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:33:15 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:33:20 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:33:25 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:33:30 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:33:35 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:33:40 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:33:45 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:33:50 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:33:55 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:34:00 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:34:05 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:34:10 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:34:15 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:34:20 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:34:25 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:34:30 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:34:35 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:34:40 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:34:45 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:34:50 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:34:55 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:35:00 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:35:05 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:35:10 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:35:15 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:35:20 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:35:25 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:35:30 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:35:35 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:35:40 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:35:45 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:35:50 PM] (9688 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:36:45 PM] (7184 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:36:45 PM] (7184 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:36:50 PM] (7184 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:36:55 PM] (7184 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:37:00 PM] (7184 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:37:05 PM] (7184 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:37:10 PM] (7184 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:37:13 PM] (15900 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:37:13 PM] (15900 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:37:15 PM] (15900 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:37:20 PM] (15900 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:37:25 PM] (15900 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:37:30 PM] (12284 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:37:30 PM] (12284 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:37:35 PM] (12284 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:37:40 PM] (12284 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:37:45 PM] (12284 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:37:47 PM] (9668 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:37:47 PM] (9668 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:37:50 PM] (9668 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:37:55 PM] (9668 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:38:00 PM] (9668 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:38:05 PM] (9668 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:38:10 PM] (9668 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:38:15 PM] (9668 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:38:20 PM] (9668 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:38:25 PM] (9668 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:38:30 PM] (9668 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:38:32 PM] (9192 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:38:32 PM] (9192 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:38:35 PM] (9192 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:38:40 PM] (9192 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:38:45 PM] (9192 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:38:50 PM] (9192 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:38:55 PM] (9192 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:39:00 PM] (9192 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:39:05 PM] (9192 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:39:10 PM] (9192 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:39:15 PM] (9192 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:39:20 PM] (9192 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:39:25 PM] (9192 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:39:30 PM] (9192 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:39:35 PM] (9192 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:39:40 PM] (9192 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:39:45 PM] (9192 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:39:50 PM] (9192 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:39:55 PM] (9192 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:40:00 PM] (9192 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:40:05 PM] (9192 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:40:10 PM] (9192 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:40:15 PM] (9192 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:40:17 PM] (18044 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:40:17 PM] (18044 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:40:20 PM] (18044 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:40:25 PM] (18044 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:40:30 PM] (18044 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:40:35 PM] (18044 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:40:40 PM] (18044 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:40:45 PM] (18044 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:40:50 PM] (18044 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:40:55 PM] (18044 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:41:00 PM] (18044 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:41:05 PM] (18044 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:41:10 PM] (18044 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:41:15 PM] (18044 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:41:16 PM] (9740 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:41:16 PM] (9740 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:41:20 PM] (9740 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:41:25 PM] (9740 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:41:30 PM] (9740 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:41:35 PM] (9740 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:41:40 PM] (9740 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:41:45 PM] (9740 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:41:50 PM] (9740 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:41:55 PM] (9740 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:42:00 PM] (9740 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:42:03 PM] (13556 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:42:03 PM] (13556 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:42:05 PM] (13556 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:42:10 PM] (13556 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:42:15 PM] (13556 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:42:19 PM] (1060 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:42:19 PM] (1060 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:42:20 PM] (1060 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:42:25 PM] (1060 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:42:25 PM] (12492 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:42:26 PM] (12492 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:42:30 PM] (12492 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:42:35 PM] (12492 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:42:40 PM] (12492 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:42:45 PM] (12492 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:42:50 PM] (12492 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:42:51 PM] (10004 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:42:51 PM] (10004 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:42:55 PM] (10004 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:43:00 PM] (10004 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:43:05 PM] (10004 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:43:10 PM] (10004 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:43:10 PM] (4224 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:43:10 PM] (4224 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:43:15 PM] (4224 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:43:20 PM] (4224 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:43:25 PM] (4224 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:43:30 PM] (4224 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:43:35 PM] (4224 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:43:40 PM] (4224 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:43:45 PM] (4224 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:43:50 PM] (4224 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:43:55 PM] (4224 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:44:00 PM] (4224 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:44:05 PM] (4224 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:44:10 PM] (4224 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:44:15 PM] (4224 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:44:20 PM] (14596 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:44:20 PM] (14596 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:44:25 PM] (14596 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:44:30 PM] (14596 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:44:33 PM] (14684 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:44:33 PM] (14684 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:44:35 PM] (14684 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:44:40 PM] (14684 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:44:43 PM] (13180 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:44:43 PM] (13180 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:44:45 PM] (13180 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:44:50 PM] (13180 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:44:55 PM] (13180 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:45:00 PM] (13180 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:45:05 PM] (15168 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:45:05 PM] (15168 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:45:10 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:45:15 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:45:20 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:45:25 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:45:30 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:45:35 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:45:40 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:45:45 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:45:50 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:45:55 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:46:00 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:46:05 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:46:10 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:46:15 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:46:20 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:46:25 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:46:30 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:46:35 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:46:40 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:46:45 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:46:50 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:46:55 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:47:00 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:47:05 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:47:10 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:47:15 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:47:20 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:47:25 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:47:30 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:47:35 PM] (15168 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:51:55 PM] (7480 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:51:55 PM] (7480 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:52:00 PM] (7480 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:52:05 PM] (7480 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:52:10 PM] (7480 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:52:15 PM] (7480 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:52:20 PM] (7480 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:52:25 PM] (7480 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:52:30 PM] (7480 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:52:35 PM] (7480 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:52:40 PM] (7480 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:52:45 PM] (7480 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:52:50 PM] (7480 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:52:55 PM] (7480 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:53:00 PM] (7480 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:53:05 PM] (7480 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:53:10 PM] (7480 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:53:15 PM] (7480 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:53:20 PM] (7480 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:53:23 PM] (14996 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:53:23 PM] (14996 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:53:25 PM] (14996 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:53:30 PM] (14996 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:53:35 PM] (14996 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:53:40 PM] (14996 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:53:45 PM] (14996 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:53:50 PM] (14996 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:53:55 PM] (14996 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:54:00 PM] (14996 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:54:05 PM] (14996 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:54:10 PM] (14996 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:54:15 PM] (14996 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:54:20 PM] (14996 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:54:25 PM] (14996 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:54:30 PM] (14996 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:54:35 PM] (14996 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:54:40 PM] (14996 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:54:45 PM] (14996 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:54:50 PM] (14996 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:54:55 PM] (14996 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:55:00 PM] (14996 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:55:05 PM] (14996 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:55:10 PM] (14996 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:55:14 PM] (10536 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:55:14 PM] (10536 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:55:15 PM] (10536 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:55:20 PM] (10536 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:55:25 PM] (10536 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:55:30 PM] (13696 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:55:30 PM] (13696 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:55:31 PM] (12664 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:55:31 PM] (12664 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:55:35 PM] (12664 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:55:40 PM] (12664 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:55:45 PM] (12664 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:55:50 PM] (12664 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:55:52 PM] (8344 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:55:52 PM] (8344 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:55:55 PM] (8344 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:56:00 PM] (8344 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:56:05 PM] (8344 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:56:10 PM] (8344 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:56:13 PM] (15680 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:56:13 PM] (15680 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:56:15 PM] (15680 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:56:20 PM] (15680 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:56:25 PM] (15680 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:56:30 PM] (15680 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:56:35 PM] (15680 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:56:39 PM] (4832 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:56:39 PM] (4832 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:56:40 PM] (4832 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:56:45 PM] (4832 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:56:50 PM] (4832 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:56:55 PM] (4832 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:57:00 PM] (4832 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:57:05 PM] (4832 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:57:10 PM] (4832 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:57:15 PM] (4832 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:57:20 PM] (4832 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:57:25 PM] (4832 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:57:26 PM] (4272 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:57:26 PM] (4272 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:57:30 PM] (4272 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:57:35 PM] (4272 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:57:38 PM] (9972 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:57:38 PM] (9972 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:57:40 PM] (9972 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:57:45 PM] (9972 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:57:50 PM] (9972 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:57:55 PM] (9972 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:58:00 PM] (9972 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:58:05 PM] (9972 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:58:10 PM] (9972 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:58:15 PM] (9972 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:58:20 PM] (9972 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:58:24 PM] (12992 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:58:24 PM] (12992 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:58:25 PM] (12992 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:58:30 PM] (12992 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:58:35 PM] (12992 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:58:40 PM] (12992 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:58:45 PM] (12992 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:58:50 PM] (11564 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 7:58:50 PM] (11564 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 7:58:55 PM] (11564 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 7:59:00 PM] (11564 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 8:09:10 PM] (9704 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 8:09:10 PM] (9704 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 8:09:15 PM] (9704 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 8:09:20 PM] (9704 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 8:10:16 PM] (17024 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 8:10:16 PM] (17024 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 8:10:20 PM] (17024 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 8:15:32 PM] (17936 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 8:15:32 PM] (17936 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 8:15:35 PM] (17936 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 8:17:42 PM] (7916 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 8:17:42 PM] (7916 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 8:17:45 PM] (7916 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 8:18:27 PM] (10004 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 8:18:27 PM] (10004 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 8:18:30 PM] (10004 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 8:19:50 PM] (12172 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 8:19:50 PM] (12172 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 8:19:55 PM] (12172 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 8:20:00 PM] (12172 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 8:20:05 PM] (12172 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 8:20:10 PM] (12172 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 8:20:15 PM] (12172 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 8:21:29 PM] (16476 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 8:21:30 PM] (16476 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 8:21:30 PM] (16476 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 8:21:35 PM] (16476 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 8:25:10 PM] (11252 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 8:25:10 PM] (11252 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 8:25:15 PM] (11252 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 8:25:19 PM] (1964 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 8:25:19 PM] (1964 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 8:25:20 PM] (1964 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 8:25:44 PM] (9836 on DESKTOP-QBRPS5I): [36mServer is listening on PORT:3061[39m
+[32mINFO[39m [2023-10-02, 8:25:44 PM] (9836 on DESKTOP-QBRPS5I): [36mConnection has been established successfully MYSQL.[39m
+[32mINFO[39m [2023-10-02, 8:25:45 PM] (9836 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 8:25:50 PM] (9836 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 8:25:55 PM] (9836 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 8:26:00 PM] (9836 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 8:26:05 PM] (9836 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 8:26:10 PM] (9836 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m
+[32mINFO[39m [2023-10-02, 8:26:15 PM] (9836 on DESKTOP-QBRPS5I): [36msendEvent is running...[39m

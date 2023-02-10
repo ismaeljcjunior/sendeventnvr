@@ -1,9 +1,9 @@
 const Sequelize = require('sequelize')
 const logger = require('../utils/logger')
 
-const sequelize = new Sequelize(process.env.DB_BASE, process.env.DB_USERNAME, process.env.DB_PASSWORD, {
-    host: process.env.DB_HOST,
-    dialect: process.env.DB_DIALECT,
+const sequelize = new Sequelize(process.env.DB_BASE_MYSQL, process.env.DB_USERNAME_MYSQL, process.env.DB_PASSWORD_MYSQL, {
+    host: process.env.DB_HOST_MYSQL,
+    dialect: process.env.DB_DIALECT_MYSQL,
     logging: false
 });
 sequelize.authenticate().then(() => {

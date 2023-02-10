@@ -1,5 +1,4 @@
-const pino = require('pino')({ prettyPrint: true });
-
+const pino = require('pino')
 const levels = {
   http: 10,
   debug: 20,
