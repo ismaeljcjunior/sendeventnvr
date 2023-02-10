@@ -5,13 +5,20 @@ const { XMLParser, XMLBuilder, XMLValidator } = require('fast-xml-parser')
 const fs = require('fs')
 const dbMysql = require('./config/dbMysql')
 const { QueryTypes } = require('sequelize')
-const logger = require('./utils/logger')
+const logger = require("./utils/logger");
+const expressPinoLogger = require("express-pino-logger");
 const nodeSchedule = require('node-schedule')
 const axios = require('axios')
-const { Console } = require('console')
-const app = express()
 
-app.use(express.json())
+const app = express()
+const loggerMidleware = expressPinoLogger({
+  logger: logger,
+  autoLogging: true,
+});
+
+app.use(express.json());
+app.use(loggerMidleware);
+
 
 async function selectEvent() {
   let date = new Date()
@@ -40,7 +47,7 @@ async function selectEvent() {
     if (event.length > 0) {
       eventNVR = true
       console.log('pending event', localDate)
-      mountEvent(eventNVR)
+      // mountEvent(eventNVR)
     }
   } catch (e) {
     console.log('no events to handle')

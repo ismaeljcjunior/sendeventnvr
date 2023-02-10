@@ -1,22 +1,24 @@
-const { createLogger, format, transports } = require('winston')
+const pino = require('pino')({ prettyPrint: true });
 
-module.exports = createLogger({
-    format: format.combine(
-        format.splat(),
-        format.json(),
-        format.simple(),
-        format.timestamp({format: "HH:mm:ss - DD-MM-YYYY"}),
-        format.printf(info => `[${info.timestamp}] ${info.level} ${info.message}`)
-    ),
-    transports: [
-        new transports.File({
-            maxsize: 512000,
-            maxFiles: 5,
-            //filename: `${__dirname}../logs/log-api.log`,
-             filename: './utils/logs.log'
-        }),
-        new transports.Console({
-            level: 'debug',
-        })
-    ],
-})
+const levels = {
+  http: 10,
+  debug: 20,
+  info: 30,
+  warn: 40,
+  error: 50,
+  fatal: 60,
+};
+module.exports = pino(
+    {
+    customLevels: levels, // our defined levels
+    useOnlyCustomLevels: true,
+    level: 'http',
+    prettyPrint: {
+      colorize: true, // colorizes the log
+      levelFirst: true,
+      translateTime: 'yyyy-dd-mm, h:MM:ss TT',
+    },
+    
+  },  pino.destination(`${__dirname}/logger.log`)
+  )
+  
