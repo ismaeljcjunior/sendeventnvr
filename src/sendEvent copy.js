@@ -26,7 +26,6 @@ async function selectEvent() {
   let regExpNumero = /[0-9]/g;
   let verifyIdEmp;
   let verifyIdEvent;
-  let idEvento
 
   try {
     const checkEvent = await dbMysql.query(process.env.DB_VERIFY_EVENT, {  type: dbMysql.QueryTypes.SELECT, });
@@ -58,60 +57,71 @@ async function selectEvent() {
       eventNVR = true;
       console.log(`EVENTO COM STATUS PENDENTE, QUANTIDADE: ${checkEvent.length} DATA: ${localDate}`);
       logger.info(`EVENTO COM STATUS PENDENTE, QUANTIDADE: ${checkEvent.length} DATA: ${localDate}`)
-      
-       mountEvent(eventNVR,verifyIdEvent)
+      // mountEvent(eventNVR)
     }
   } catch (e) {
     console.log("NENHUM EVENTO PENDENTE DATA: ", localDate);
     logger.info("NENHUM EVENTO PENDENTE DATA: ", localDate);
   }
 }
-async function mountEvent(eventNVR,verifyIdEvent) {
+async function mountEvent(eventNVR) {
   let date = new Date();
   let localDate = date.toLocaleString();
-  let checkEvent;
-  let objectEvent = {
-    ID_EVENTO: '',
-    CSID: '',
-    PARTICAO:'',
-    ID_EMPRESA:'',
-    TIPO_EVENTO: '',
-    CHANNEL: '',
-    DT_CREATED: '',
-  }
+  //Variaveis para montar, desestruturar select
+  let idError;
+  let csidError;
+  let partition;
+  let idEmp;
+  let eventError;
+  let channelError;
+  let dateError;
 
+  console.log("eventNVR", eventNVR);
   if (eventNVR) {
-    console.log("MONTANDO EVENTO", date);
-    logger.info("MONTANDO EVENTO", date);
+    console.log("mounting error", date);
 
     try {
-      checkEvent = await dbMysql.query(`SELECT * FROM evento_nvr_dvr.db_evento  where id_evento = '${verifyIdEvent}'`, {  type: dbMysql.QueryTypes.SELECT, });
-      // console.log(checkEvent)
-      objectEvent.ID_EVENTO = checkEvent.at(0).ID_EVENTO;
-      objectEvent.CSID = checkEvent.at(0).CSID;
-      objectEvent.PARTICAO = checkEvent.at(0).PARTICAO;
-      objectEvent.ID_EMPRESA = checkEvent.at(0).ID_EMPRESA;
-      objectEvent.TIPO_EVENTO = checkEvent.at(0).TIPO_EVENTO;
-      objectEvent.CHANNEL = checkEvent.at(0).CHANNEL;
-      objectEvent.DT_CREATED = checkEvent.at(0).DT_CREATED;
-      console.log('////////,',objectEvent)
+      event = await dbMysql.query(process.env.DB_SELECT_EVENT, {
+        type: dbMysql.QueryTypes.SELECT,
+      });
+
+      idError = event.at(0).ID_EVENTO;
+      csidError = event.at(0).CSID;
+      partition = event.at(0).PARTITION_;
+      idEmp = event.at(0).ID_EMPRESA;
+      eventError = event.at(0).EVENT_TYPE;
+      channelError = event.at(0).CHANNEL_;
+      if (channelError == null) {
+      } else {
+        let testQuantChannel = channelError.split(",");
+        if (testQuantChannel.length > 1) {
+          channelError = "00";
+        }
+      }
+
+      dateError = event.at(0).DT_CREATED;
     } catch (e) {
       console.log("error select query", e);
     }
-  }else{
-    return
   }
-
-  // buildXml(
-  //   eventNVR,
-  //   idError,
-  //   csidError,
-  //   partition,
-  //   idEmp,
-  //   eventError,
-  //   channelError,
-  //   dateError
-  // );
+  console.log("idError", idError);
+  console.log("csidError", csidError);
+  console.log("partition", partition);
+  console.log("idEmp", idEmp);
+  console.log("eventError", eventError);
+  console.log("channelError", channelError);
+  console.log("dateError", dateError);
+  console.log("mount success", date);
+  buildXml(
+    eventNVR,
+    idError,
+    csidError,
+    partition,
+    idEmp,
+    eventError,
+    channelError,
+    dateError
+  );
 }
 function buildXml(
   eventNVR,
