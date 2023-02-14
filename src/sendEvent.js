@@ -26,25 +26,26 @@ async function selectEvent() {
   let regExpNumero = /[0-9]/g;
   let verifyIdEmp;
   let verifyIdEvent;
-  let idEvento
-
+  let idEvento;
+  let verifyIdTipoEvento
   try {
-    const checkEvent = await dbMysql.query(process.env.DB_VERIFY_EVENT, {  type: dbMysql.QueryTypes.SELECT, });
-   
+    const checkEvent = await dbMysql.query(process.env.DB_VERIFY_EVENT, { type: dbMysql.QueryTypes.SELECT,});
+
     verifyIdEvent = checkEvent.at(0).ID_EVENTO;
     verifyIdEmp = checkEvent.at(0).ID_EMPRESA;
     verifyIdCsid = checkEvent.at(0).CSID;
     verifyIdParticao = checkEvent.at(0).PARTICAO;
     verifyIdTipoEvento = checkEvent.at(0).TIPO_EVENTO;
-    // console.log(checkEvent);
     
-    if (regExpTexto.test(verifyIdEmp) || regExpTexto.test(verifyIdCsid) || regExpTexto.test(verifyIdParticao) || regExpNumero.test(verifyIdTipoEvento)) {
+
+    if ( regExpTexto.test(verifyIdEmp) || regExpTexto.test(verifyIdCsid) || regExpTexto.test(verifyIdParticao) ||regExpNumero.test(verifyIdTipoEvento) ) {
       try {
-        console.log("EVENTO COM DADOS INVALIDOS", checkEvent.at(0).EMAIL_SUBJECT);
-        logger.info("EVENTO COM DADOS INVALIDOS", checkEvent.at(0).EMAIL_SUBJECT);
-        console.log("ATUALIZANDO STATUS PARA INVALIDO"); 
-        await dbMysql.query(`UPDATE evento_nvr_dvr.db_evento SET STATUS = 'INVALIDO' WHERE (ID_EVENTO = '${verifyIdEvent}');`, { type: dbMysql.QueryTypes.UPDATE } );
-        return 
+        console.log("EVENTO COM DADOS INVALIDOS",checkEvent.at(0).EMAIL_SUBJECT );
+        logger.info("EVENTO COM DADOS INVALIDOS",  checkEvent.at(0).EMAIL_SUBJECT);
+        console.log("ATUALIZANDO STATUS PARA INVALIDO");
+
+        await dbMysql.query( `UPDATE evento_nvr_dvr.db_evento SET STATUS = 'INVALIDO' WHERE (ID_EVENTO = '${verifyIdEvent}');`, { type: dbMysql.QueryTypes.UPDATE } );
+        return;
       } catch (e) {
         console.log("ERRO AO ATUALIZAR STATUS PARA INVALIDO", e);
         logger.info("ERRO AO ATUALIZAR STATUS PARA INVALIDO", e);
@@ -56,36 +57,43 @@ async function selectEvent() {
     }
     if (checkEvent.length > 0) {
       eventNVR = true;
-      console.log(`EVENTO COM STATUS PENDENTE, QUANTIDADE: ${checkEvent.length} DATA: ${localDate}`);
-      logger.info(`EVENTO COM STATUS PENDENTE, QUANTIDADE: ${checkEvent.length} DATA: ${localDate}`)
-      
-       mountEvent(eventNVR,verifyIdEvent)
+      console.log(
+        `EVENTO COM STATUS PENDENTE, QUANTIDADE: ${checkEvent.length} DATA: ${localDate}`
+      );
+      logger.info(
+        `EVENTO COM STATUS PENDENTE, QUANTIDADE: ${checkEvent.length} DATA: ${localDate}`
+      );
+
+      mountEvent(eventNVR, verifyIdEvent);
     }
   } catch (e) {
     console.log("NENHUM EVENTO PENDENTE DATA: ", localDate);
     logger.info("NENHUM EVENTO PENDENTE DATA: ", localDate);
   }
 }
-async function mountEvent(eventNVR,verifyIdEvent) {
+async function mountEvent(eventNVR, verifyIdEvent) {
   let date = new Date();
   let localDate = date.toLocaleString();
   let checkEvent;
   let objectEvent = {
-    ID_EVENTO: '',
-    CSID: '',
-    PARTICAO:'',
-    ID_EMPRESA:'',
-    TIPO_EVENTO: '',
-    CHANNEL: '',
-    DT_CREATED: '',
-  }
+    ID_EVENTO: "",
+    CSID: "",
+    PARTICAO: "",
+    ID_EMPRESA: "",
+    TIPO_EVENTO: "",
+    CHANNEL: "",
+    DT_CREATED: "",
+  };
 
   if (eventNVR) {
     console.log("MONTANDO EVENTO", date);
     logger.info("MONTANDO EVENTO", date);
 
     try {
-      checkEvent = await dbMysql.query(`SELECT * FROM evento_nvr_dvr.db_evento  where id_evento = '${verifyIdEvent}'`, {  type: dbMysql.QueryTypes.SELECT, });
+      checkEvent = await dbMysql.query(
+        `SELECT * FROM evento_nvr_dvr.db_evento  where id_evento = '${verifyIdEvent}'`,
+        { type: dbMysql.QueryTypes.SELECT }
+      );
       // console.log(checkEvent)
       objectEvent.ID_EVENTO = checkEvent.at(0).ID_EVENTO;
       objectEvent.CSID = checkEvent.at(0).CSID;
@@ -94,38 +102,37 @@ async function mountEvent(eventNVR,verifyIdEvent) {
       objectEvent.TIPO_EVENTO = checkEvent.at(0).TIPO_EVENTO;
       objectEvent.CHANNEL = checkEvent.at(0).CHANNEL;
       objectEvent.DT_CREATED = checkEvent.at(0).DT_CREATED;
-      console.log('////////,',objectEvent)
+      
     } catch (e) {
       console.log("error select query", e);
     }
-  }else{
-    return
+  } else {
+    return;
   }
+  if (objectEvent.TIPO_EVENTO === "HDD ERROR") {
+    console.log("ERROR SELECT HDD EVENT", objectEvent)
+    
 
-  // buildXml(
-  //   eventNVR,
-  //   idError,
-  //   csidError,
-  //   partition,
-  //   idEmp,
-  //   eventError,
-  //   channelError,
-  //   dateError
-  // );
+  }
+  else if (objectEvent.TIPO_EVENTO === "VIDEO SIGNAL LOST") {
+    console.log("ERROR SELECT VIDEO SIGNAL LOST", objectEvent)
+
+
+  }
+  else if (objectEvent.TIPO_EVENTO === "RECORD EXCEPTION") {
+    console.log("ERROR SELECT RECORD EXCEPTION", objectEvent)
+
+
+  }
+  
+  buildXml(objectEvent);
 }
-function buildXml(
-  eventNVR,
-  idError,
-  csidError,
-  partition,
-  idEmp,
-  eventError,
-  channelError,
-  dateError
-) {
+function buildXml( objectEvent) {
   let date = new Date();
   let localDate = date.toLocaleString();
-  const xmlDataBase = `<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  const xmlDataBase =
+  `
+  <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SOAP-ENV:Body>
     <m:receberEvento xmlns:m="http://webServices.sigmaWebServices.segware.com.br/">
       <evento>
@@ -135,14 +142,13 @@ function buildXml(
           <descricaoReceptora>Receptora de teste</descricaoReceptora>
           <empresa>10001</empresa>
           <idCentral>57571</idCentral>
-
           <particao>001</particao>
           <protocolo>2</protocolo>
-         
         </evento>
       </m:receberEvento>
   </SOAP-ENV:Body>
-  </SOAP-ENV:Envelope>`;
+  </SOAP-ENV:Envelope>
+  `;
   const optionsToJson = {
     attributeNamePrefix: "@_",
     //attrNodeName: false,
@@ -152,7 +158,7 @@ function buildXml(
   };
   const parser = new XMLParser(optionsToJson);
   const xmlJson = parser.parse(xmlDataBase);
-
+  console.log('----->',  objectEvent);
   try {
     //console.log('antes', xmlJson['SOAP-ENV:Envelope']['SOAP-ENV:Body']['m:receberEvento']['evento'])
 
@@ -161,7 +167,7 @@ function buildXml(
     ].auxiliar = "000";
     xmlJson["SOAP-ENV:Envelope"]["SOAP-ENV:Body"]["m:receberEvento"][
       "evento"
-    ].codigo = "E602";
+    ].codigo = "1602";
     xmlJson["SOAP-ENV:Envelope"]["SOAP-ENV:Body"]["m:receberEvento"][
       "evento"
     ].data = "2022-11-29T09:30:47Z";
@@ -185,7 +191,8 @@ function buildXml(
 
     //console.log('depois', xmlJson['SOAP-ENV:Envelope']['SOAP-ENV:Body']['m:receberEvento']['evento'])
   } catch (e) {
-    console.log("error build xmlEvent", e);
+    console.log("ERRO MONTAR XML DO EVENTO", e);
+    logger.info("ERRO MONTAR XML DO EVENTO", e);
   }
   const optionsToXML = {
     attributeNamePrefix: "@_",
@@ -201,9 +208,10 @@ function buildXml(
   let xmlDataStr = builder.build(xmlJson);
   //console.log(xmlDataStr)
 
-  console.log("build xml", date);
+  console.log("BUILD XML", date);
+  logger.info("BUILD XML", date);
 
-  sendEvent(xmlDataStr, idError);
+  // sendEvent(xmlDataStr, idError);
 }
 async function sendEvent(xmlDataStr, idError) {
   let date = new Date();
@@ -214,26 +222,27 @@ async function sendEvent(xmlDataStr, idError) {
   let returnDataXML;
   console.log("idError", idError);
 
-  // try {
-  //   const response = await axios.post(url, xmlDataStr, config)
-  //     .then(res => {
-  //       returnDataXML = res.data
-  //       //console.log(returnDataXML, 'debug')
-  //     })
-  //     .catch(e => {
-  //       console.log(e)
-  //     })
-  //   if (returnDataXML.includes('ACK')) {
-  //     console.log('return ACK')
-  //     updateStatusEvent(idError)
-  //   } else {
-  //     console.log('error ', returnDataXML)
-  //   }
+  try {
+    const response = await axios.post(url, xmlDataStr, config)
+      .then(res => {
+        returnDataXML = res.data
+        //console.log(returnDataXML, 'debug')
+      })
+      .catch(e => {
+        console.log(e)
+      })
+    if (returnDataXML.includes('ACK')) {
+      console.log('return ACK')
+      console.log('----------------->',returnDataXML)
+      // updateStatusEvent(idError)
+    } else {
+      console.log('error ', returnDataXML)
+    }
 
-  //   console.log('send event', date)
-  // } catch (e) {
-  //   console.log(e)
-  // }
+    console.log('send event', date)
+  } catch (e) {
+    console.log(e)
+  }
 }
 async function updateStatusEvent(idError) {
   let date = new Date();
@@ -261,7 +270,7 @@ function debug() {
   // }
 }
 //---------------Scheduled------------------//
-const job = nodeSchedule.scheduleJob("0-59/5  * * * * *", () => {
+const job = nodeSchedule.scheduleJob("0-59/10  * * * * *", () => {
   let date = new Date();
   let localDate = date.toLocaleString();
   logger.info("sendEvent is running...", localDate);
