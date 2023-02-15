@@ -1,22 +1,22 @@
-const path = require("path");
-require("dotenv").config({ path: path.resolve(__dirname, "../.env") });
-const express = require("express");
-const { XMLParser, XMLBuilder, XMLValidator } = require("fast-xml-parser");
-const fs = require("fs");
-const dbMysql = require("./config/dbMysql");
-const { QueryTypes } = require("sequelize");
-const logger = require("./utils/logger");
-const expressPinoLogger = require("express-pino-logger");
-const nodeSchedule = require("node-schedule");
-const axios = require("axios");
+const path = require("path")
+require("dotenv").config({ path: path.resolve(__dirname, "../.env") })
+const express = require("express")
+const { XMLParser, XMLBuilder, XMLValidator } = require("fast-xml-parser")
+const fs = require("fs")
+const dbMysql = require("./config/dbMysql")
+const { QueryTypes } = require("sequelize")
+const logger = require("./utils/logger")
+const expressPinoLogger = require("express-pino-logger")
+const nodeSchedule = require("node-schedule")
+const axios = require("axios")
 
 const loggerMidleware = expressPinoLogger({
   logger: logger,
   autoLogging: true,
 });
-const app = express();
-app.use(express.json());
-app.use(loggerMidleware);
+const app = express()
+app.use(express.json())
+app.use(loggerMidleware)
 
 async function selectEvent() {
   let date = new Date();
@@ -26,7 +26,7 @@ async function selectEvent() {
   let regExpNumero = /[0-9]/g;
   let verifyIdEmp;
   let verifyIdEvent;
-  let idEvento;
+
   let verifyIdTipoEvento
   try {
     const checkEvent = await dbMysql.query(process.env.DB_VERIFY_EVENT, { type: dbMysql.QueryTypes.SELECT,});
@@ -124,7 +124,6 @@ async function mountEvent(eventNVR, verifyIdEvent) {
 
 
   }
-  
   buildXml(objectEvent);
 }
 function buildXml( objectEvent) {
@@ -249,10 +248,7 @@ async function updateStatusEvent(idError) {
   let localDate = date.toLocaleString();
 
   try {
-    await dbMysql.query(
-      `UPDATE eventos_dvr.events SET STATUS_ = 'ENVIADO', DT_SEND = '${localDate}' WHERE (ID_EVENTO = '${idError}');`,
-      { type: dbMysql.QueryTypes.UPDATE }
-    );
+    await dbMysql.query(`UPDATE eventos_dvr.events SET STATUS_ = 'ENVIADO', DT_SEND = '${localDate}' WHERE (ID_EVENTO = '${idError}');`, { type: dbMysql.QueryTypes.UPDATE }  );
   } catch (e) {
     console.log("error update status event", e);
     return;
@@ -270,7 +266,7 @@ function debug() {
   // }
 }
 //---------------Scheduled------------------//
-const job = nodeSchedule.scheduleJob("0-59/10  * * * * *", () => {
+const job = nodeSchedule.scheduleJob("0-59/5  * * * * *", () => {
   let date = new Date();
   let localDate = date.toLocaleString();
   logger.info("sendEvent is running...", localDate);
